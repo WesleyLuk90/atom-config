@@ -1,0 +1,64 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "2e89a6de-80f8-441f-9985-59f5c6db44ca"
+    html:
+      end_with_newline: true
+      indent_inner_html: true
+    js:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      end_with_comma: true
+      end_with_newline: true
+    json:
+      beautify_on_save: true
+      end_with_comma: true
+    jsx:
+      beautify_on_save: true
+      end_with_comma: true
+    php:
+      beautify_on_save: true
+      default_beautifier: "PHPCBF"
+      level: "symfony"
+      standard: "PSR2"
+    scss:
+      beautify_on_save: true
+  "atom-ctags":
+    buildTimeout: 1000000
+    cmdArgs: "--exclude=node_modules --exclude=.git"
+    disableComplete: true
+  core:
+    disabledPackages: [
+      "symbols-view"
+      "symbol-gen"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+  editor:
+    fontSize: 11
+    invisibles: {}
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "58d02a9a-829b-8c52-db2a-cea66b9ff12c"
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  linter:
+    errorPanelHeight: 67
+    showErrorInline: false
+  "tree-view":
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+".ini.source":
+  editor:
+    scrollPastEnd: true
+    tabLength: 4

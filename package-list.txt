@@ -1,0 +1,15 @@
+advanced-open-file
+git@github.com:WesleyLuk90/atom-beautify.git
+autocomplete-modules
+build
+busy
+duplicate-line-or-selection
+editorconfig
+goto-definition
+highlight-selected
+language-babel
+language-blade
+language-glsl
+linter
+linter-eslint
+symbol-gen
