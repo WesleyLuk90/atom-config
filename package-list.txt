@@ -13,3 +13,4 @@ linter
 linter-eslint
 symbol-gen
 git@github.com:WesleyLuk90/atom-beautify.git
+git@github.com:WesleyLuk90/relative-require.git

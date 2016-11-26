@@ -35,7 +35,7 @@
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
   editor:
-    fontSize: 11
+    fontSize: 12
     invisibles: {}
     showInvisibles: true
     tabLength: 4
@@ -50,6 +50,13 @@
   linter:
     errorPanelHeight: 67
     showErrorInline: false
+  "relative-require":
+    excludeDirs: [
+      "^\\."
+      "node_modules"
+      "bower_components"
+      "spec"
+    ]
   "tree-view":
     squashDirectoryNames: true
   welcome:
