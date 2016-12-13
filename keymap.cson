@@ -37,4 +37,4 @@
 '.platform-win32 atom-text-editor:not(.mini)':
   'F12': 'goto-definition:go'
 'atom-text-editor':
-  'ctrl-r': 'relative-require:require'
+  'ctrl-i': 'relative-require:require'
