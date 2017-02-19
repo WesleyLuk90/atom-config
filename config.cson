@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "2e89a6de-80f8-441f-9985-59f5c6db44ca"
+    go:
+      disabled: true
     html:
       end_with_newline: true
       indent_inner_html: true
@@ -32,12 +34,12 @@
   core:
     disabledPackages: [
       "symbols-view"
-      "symbol-gen"
+      "go-debug"
+      "go-signature-statusbar"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
   editor:
-    fontSize: 12
     invisibles: {}
     showInvisibles: true
     tabLength: 4
@@ -47,10 +49,18 @@
     ignoredNames: [
       "node_modules"
     ]
+  "go-plus":
+    disabledBundledPackages: [
+      "go-debug"
+    ]
+    get: {}
+  "goto-definition": {}
+  hyperclick:
+    win32TriggerKeys: "altKey"
   "line-ending-selector":
     defaultLineEnding: "LF"
   linter:
-    errorPanelHeight: 67
+    errorPanelHeight: 104
     showErrorInline: false
   "relative-require":
     excludeDirs: [
