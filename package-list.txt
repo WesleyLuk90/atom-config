@@ -13,6 +13,7 @@ language-blade
 language-glsl
 linter
 linter-eslint
+node-import-resolver
 
 git@github.com:WesleyLuk90/atom-beautify.git
 git@github.com:WesleyLuk90/relative-require.git

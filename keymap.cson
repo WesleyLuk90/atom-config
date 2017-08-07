@@ -36,5 +36,5 @@
   'ctrl-alt-n': 'advanced-open-file:toggle'
 '.platform-win32 atom-text-editor:not(.mini)':
   'F12': 'goto-definition:go'
-'atom-text-editor':
-  'ctrl-i': 'relative-require:require'
+# 'atom-text-editor':
+#   'ctrl-i': 'relative-require:require'

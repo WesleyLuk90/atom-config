@@ -36,8 +36,10 @@
       "symbols-view"
       "go-debug"
       "go-signature-statusbar"
+      "atom-test-framework"
     ]
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
   editor:
     invisibles: {}
@@ -54,14 +56,16 @@
       "go-debug"
     ]
     get: {}
+    test: {}
   "goto-definition": {}
   hyperclick:
     win32TriggerKeys: "altKey"
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter:
-    errorPanelHeight: 104
-    showErrorInline: false
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 93
+    showPanel: true
   "relative-require":
     excludeDirs: [
       "^\\."
@@ -69,6 +73,8 @@
       "bower_components"
       "spec"
     ]
+  "spell-check":
+    addKnownWords: true
   "tree-view":
     squashDirectoryNames: true
   welcome:
